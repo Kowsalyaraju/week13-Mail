@@ -50,7 +50,7 @@ function send()
 
    .then(function(data)
       {
-        if(data.data==true)
+        if(data.data===true)
         {
           alert("Send Successfully")
           setstatus(false)
